@@ -1,0 +1,25 @@
+.clientSection{
+    display: grid;
+    background: var(--white-color);
+    grid-template-columns: 100%;
+    grid-template-rows:  auto;
+    padding: 2rem;
+}
+
+.clientSection h2{
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.logosList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.logosList img{
+    opacity: .8;
+    width: 150px;
+}

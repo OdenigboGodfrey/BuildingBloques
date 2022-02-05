@@ -1,0 +1,18 @@
+/*----------------- [Testimonial] ---------------*/
+/*--------------------------------------------*/
+.testSection{
+    background: var(--black-color);
+    padding: 2rem;
+    height: 100%;
+}
+
+.testCard h2{
+    text-align: center;
+    color: var(--red-color);
+}
+
+.testCard h4{
+    color: var(--white-color);
+    text-align: center;
+    margin-top: 2rem;
+}

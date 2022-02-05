@@ -1,0 +1,88 @@
+/*---------Hero Section Styles-----------*/
+/*---------------------------------------*/
+.heroSection{
+    position: relative;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background: var(--black-color);
+    height: 100vh;
+    top: -5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bigHeroText{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigHeroText h1{
+    font-family: var(--fontTwo);
+    color: var(--red-color);
+    text-transform: uppercase;
+    letter-spacing: -3px;
+}
+
+.bigHeroText .left{
+    margin-right: 2rem;
+}
+
+.smallHeroText{
+    padding-top: 2rem;
+}
+
+.smallHeroText h4{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+    line-height: 2rem;
+    font-size: var(--font-eighteen);
+    color: var(--white-color);
+}
+
+@media screen and (min-width: 450px) {
+    h1{
+        font-size: 7rem;
+        line-height: 4rem;
+    }
+
+    .smallHeroText {
+        padding-top: 2rem;
+    }
+    
+}
+
+@media screen and (min-width: 650px) and (max-width: 899px) {
+    h1{
+        font-size: 10rem;
+        line-height: 8rem;
+    }
+}
+
+@media screen and (min-width: 900px){
+    .heroSection{
+        padding-top: 2rem;
+        top: 0;
+    }
+
+    h1{
+        font-size: 13rem;
+        line-height: 15rem;
+    }
+
+    .smallHeroText{
+        padding-top: 2rem;
+    }
+
+    .smallHeroText h4{
+        width: 90%;
+    }
+
+}

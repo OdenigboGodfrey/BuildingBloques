@@ -1,0 +1,46 @@
+
+/*----------------- [Approach] ---------------*/
+/*--------------------------------------------*/
+.appSection{
+    padding: 2rem;
+    background: var(--white-color);
+}
+
+.appWrapper .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.appCard{
+    width: 320px;
+    height: 320px;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    text-align: center;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.appCard h3{
+    padding: 1rem 0;
+    color: var(--white-color);
+}
+
+
+.appWrapper p{
+    color: var(--white-color);
+}
+
+.appWrapper h2{
+    font-family: var(--fontTwo);
+    font-size: 70px;
+    color: var(--red-color);
+    text-transform: uppercase;
+    line-height: 6rem;
+}
+
+

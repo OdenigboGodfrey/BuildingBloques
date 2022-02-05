@@ -1,0 +1,92 @@
+/*--------------- [Works] -------------*/
+/*========================================*/
+.workSection{
+    background: var(--black-color);
+    padding: 2rem;
+    height: 100%;
+}
+
+.slideCard{
+    height: 450px;
+    counter-increment: slideCard;
+    margin: 0 1.5rem;
+}
+
+.slideText{
+    width: min-content;
+    margin: 0 6rem;
+    text-transform: uppercase;
+    color: var(--white-color);
+    content: counter(slideCard);
+    position: absolute;
+    bottom: 50%;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.4rem;
+    transform: translateY(50%);
+}
+
+.slideOne{
+    background: url(../../assets/5work.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.slideTwo{
+    background: url(../../assets/8work.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.slideThree{
+    background: url(../../assets/6work.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.slideFour{
+    background: url(../../assets/7work.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.slideFive{
+    background: url(../../assets/10work.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.slideSix{
+    background: url(../../assets/12work.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.slideSeven{
+    background: url(../../assets/9work.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.slideEight{
+    background: url(../../assets/11work.png);
+    background-position: center;
+    object-fit: cover;
+}
+
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+    
+@-webkit-keyframes fade{
+    from {opacity: .2} 
+    to {opacity: 1}
+}
+
+@keyframes fade{
+    from {opacity: .2} 
+    to {opacity: 1}
+}
