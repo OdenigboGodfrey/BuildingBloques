@@ -21,5 +21,11 @@
 
 .logosList img{
     opacity: .8;
-    width: 150px;
+    width: 80px;
+}
+
+@media screen and (min-width:900px) {
+    .logosList img{
+        width: 120px;
+    }
 }
