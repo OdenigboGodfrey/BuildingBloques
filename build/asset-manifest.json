@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5be491cc.css",
+    "main.js": "/static/js/main.9cd7c2e6.js",
+    "static/media/8work.png": "/static/media/8work.af6344c8c97a765374ec.png",
+    "static/media/12work.png": "/static/media/12work.3a02c6608ad8ec717c94.png",
+    "static/media/6work.png": "/static/media/6work.a3a7b93b82c3687d1986.png",
+    "static/media/10work.png": "/static/media/10work.914e14af6a2fc45c84e3.png",
+    "static/media/11work.png": "/static/media/11work.00b2fbfcd79244b90b79.png",
+    "static/media/5work.png": "/static/media/5work.c23c1beb0d37ba925c44.png",
+    "static/media/7work.png": "/static/media/7work.571af3e1253433d2e283.png",
+    "static/media/9work.png": "/static/media/9work.e538e92125334afd888e.png",
+    "static/media/20.png": "/static/media/20.e6045c21bc8a6631b1d8.png",
+    "static/media/13.png": "/static/media/13.a7e527021ae44de2b315.png",
+    "static/media/12.png": "/static/media/12.4a794a723ca6dd3be0aa.png",
+    "static/media/17.png": "/static/media/17.0ccf97ad4789a9d018b9.png",
+    "static/media/18.png": "/static/media/18.133ae40b80adee735b3a.png",
+    "static/media/august-bold-webfont.woff": "/static/media/august-bold-webfont.bf88f5e2465d28b26ab4.woff",
+    "static/media/Logo.png": "/static/media/Logo.c550ddc78d35abf02006.png",
+    "static/media/august-bold-webfont.woff2": "/static/media/august-bold-webfont.e2eaadf4e96ed06b8a05.woff2",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.5be491cc.css.map": "/static/css/main.5be491cc.css.map",
+    "main.9cd7c2e6.js.map": "/static/js/main.9cd7c2e6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5be491cc.css",
+    "static/js/main.9cd7c2e6.js"
+  ]
+}
