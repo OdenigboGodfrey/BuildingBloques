@@ -10,7 +10,8 @@
     "react-reveal": "^1.2.2",
     "react-scripts": "^5.0.0",
     "react-slick": "^0.28.1",
-    "react-split": "^2.0.14"
+    "react-split": "^2.0.14",
+    "slick-carousel": "^1.8.1"
   },
   "scripts": {
     "start": "react-scripts start",
